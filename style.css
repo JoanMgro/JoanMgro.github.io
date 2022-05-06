@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 65.5%;
+  
+
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
+ body {
+     background-color: black;
+     
+     min-width: 375px;
+     width: 100vw;
+     margin: 0px;
+     height: 100vh;
+     
+ }
+
+ header {
+     min-width: 355px;
+     width: 80%;
+     margin: 0 auto;
+     background-color: whitesmoke;
+     text-align: center;
+ }
+ 
+ h1 {
+     width: 100%;
+     font-size: 3rem;
+ }
+
+ .main_container {
+
+    min-width: 355px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+
+ }
+
+ .forms {
+
+ }
+
+
