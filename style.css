@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+
     font-size: 65.5%;
   
 
@@ -9,8 +8,9 @@ html {
 
 *, *:after, *:before{
     box-sizing: inherit;
-    margin: inherit;
-    padding: inherit;
+    margin: 0px;
+    padding: 0px;
+   
 }
 
  body {
@@ -41,6 +41,7 @@ html {
     min-width: 355px;
     width: 80%;
     margin: 0 auto;
+    padding-top: 10px;
     background-color: whitesmoke;
     font-size: 1.5rem;
 
@@ -48,6 +49,47 @@ html {
 
  .forms {
 
+    max-width: 350px;
+    width: 80%;
+    height: 200px;
+
+    margin: 0px auto;
+    padding: 0px 10px;
+   
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    
+
  }
 
+.form_box {
+
+    padding-top: 10px;
+  
+}
+
+.data_1 {
+    display: flex;
+    justify-content: space-between;
+    
+     
+
+ }
+
+ .in_form {
+     width: 100px;
+ }
+
+ .output {
+     padding-top: 10px;
+ }
+
+ .out_canvas {
+     width: 100px;
+     height: 100px;
+     margin: 0px auto;
+     background-color: rgb(218, 231, 231);
+ }
 
