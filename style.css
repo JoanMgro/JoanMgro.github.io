@@ -47,11 +47,11 @@ html {
 
  }
 
- .forms {
+ .forms { /*Contenedor de los forms*/
 
     max-width: 350px;
     width: 80%;
-    height: 200px;
+    height: 220px;
 
     margin: 0px auto;
     padding: 0px 10px;
@@ -64,15 +64,17 @@ html {
 
  }
 
-.form_box {
+.form_box { /*Form*/
 
     padding-top: 10px;
+    height: auto;
   
 }
 
-.data_1 {
+.data_1 { /*label and input 1st data form*/
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
      
 
@@ -80,6 +82,8 @@ html {
 
  .in_form {
      width: 100px;
+     height: 25px;
+     font-size: 1.5rem;
  }
 
  .output {
@@ -89,7 +93,10 @@ html {
  .out_canvas {
      width: 100px;
      height: 100px;
-     margin: 0px auto;
+     margin: 10px auto 0px auto;
+     
      background-color: rgb(218, 231, 231);
  }
+
+ 
 
