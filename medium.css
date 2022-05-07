@@ -1,5 +1,14 @@
+
 h1 {
   
     font-size: 4rem;
 }
 
+.main_container {
+    height: 100vh;
+}
+
+.upper_data {
+    
+    gap: 82px;
+ }
