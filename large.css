@@ -15,3 +15,12 @@ h1 {
 
     
 }
+
+.form_triangle {
+    height: fit-content;
+}
+
+.out_triangle, .out_circle, .out_canvas {
+    width: 300px;
+     height: 90px;
+}
